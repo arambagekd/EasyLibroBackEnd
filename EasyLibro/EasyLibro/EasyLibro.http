@@ -1,0 +1,6 @@
+@EasyLibro_HostAddress = http://localhost:5127
+
+GET {{EasyLibro_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

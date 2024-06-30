@@ -1,0 +1,11 @@
+C:\Users\Arambage K D\source\repos\EasyLibro\Configuration_Layer\bin\Debug\net8.0\Configuration_Layer.deps.json
+C:\Users\Arambage K D\source\repos\EasyLibro\Configuration_Layer\bin\Debug\net8.0\Configuration_Layer.dll
+C:\Users\Arambage K D\source\repos\EasyLibro\Configuration_Layer\bin\Debug\net8.0\Configuration_Layer.pdb
+C:\Users\Arambage K D\source\repos\EasyLibro\Configuration_Layer\obj\Debug\net8.0\Configuration_Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arambage K D\source\repos\EasyLibro\Configuration_Layer\obj\Debug\net8.0\Configuration_Layer.AssemblyInfoInputs.cache
+C:\Users\Arambage K D\source\repos\EasyLibro\Configuration_Layer\obj\Debug\net8.0\Configuration_Layer.AssemblyInfo.cs
+C:\Users\Arambage K D\source\repos\EasyLibro\Configuration_Layer\obj\Debug\net8.0\Configuration_Layer.csproj.CoreCompileInputs.cache
+C:\Users\Arambage K D\source\repos\EasyLibro\Configuration_Layer\obj\Debug\net8.0\Configuration_Layer.dll
+C:\Users\Arambage K D\source\repos\EasyLibro\Configuration_Layer\obj\Debug\net8.0\refint\Configuration_Layer.dll
+C:\Users\Arambage K D\source\repos\EasyLibro\Configuration_Layer\obj\Debug\net8.0\Configuration_Layer.pdb
+C:\Users\Arambage K D\source\repos\EasyLibro\Configuration_Layer\obj\Debug\net8.0\ref\Configuration_Layer.dll
