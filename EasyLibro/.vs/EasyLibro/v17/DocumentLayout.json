@@ -1,7 +1,220 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C106C0FE-4062-4B0C-B100-D0084A207963}|Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\data_access_layer\\easylibro.dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C106C0FE-4062-4B0C-B100-D0084A207963}|Data_Access_Layer\\Data_Access_Layer.csproj|solutionrelative:data_access_layer\\easylibro.dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\easylibro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|solutionrelative:easylibro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\easylibro\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|solutionrelative:easylibro\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\easylibro\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|solutionrelative:easylibro\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\dtos\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\dtos\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\easylibro\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|solutionrelative:easylibro\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\services\\resourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\services\\resourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\dtos\\resourcelistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\dtos\\resourcelistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\interfaces\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\interfaces\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\easylibro\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|solutionrelative:easylibro\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Migrations\\20240703172829_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data_Access_Layer\\Migrations\\20240703172829_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C106C0FE-4062-4B0C-B100-D0084A207963}|Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\data_access_layer\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C106C0FE-4062-4B0C-B100-D0084A207963}|Data_Access_Layer\\Data_Access_Layer.csproj|solutionrelative:data_access_layer\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C106C0FE-4062-4B0C-B100-D0084A207963}|Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\data_access_layer\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C106C0FE-4062-4B0C-B100-D0084A207963}|Data_Access_Layer\\Data_Access_Layer.csproj|solutionrelative:data_access_layer\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C106C0FE-4062-4B0C-B100-D0084A207963}|Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\data_access_layer\\entities\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C106C0FE-4062-4B0C-B100-D0084A207963}|Data_Access_Layer\\Data_Access_Layer.csproj|solutionrelative:data_access_layer\\entities\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Migrations\\20240703170121_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data_Access_Layer\\Migrations\\20240703170121_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\dtos\\addreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\dtos\\addreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\easylibro\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|solutionrelative:easylibro\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\easylibro\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|solutionrelative:easylibro\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\dtos\\newnoticedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\dtos\\newnoticedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\interfaces\\iresourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\interfaces\\iresourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\dtos\\locationlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\dtos\\locationlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\easylibro\\controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|solutionrelative:easylibro\\controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\services\\requestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\services\\requestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\easylibro\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|solutionrelative:easylibro\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\interfaces\\irequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\interfaces\\irequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\backgroundjobs\\dailyjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\backgroundjobs\\dailyjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\easylibro\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|solutionrelative:easylibro\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\interfaces\\ilocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\interfaces\\ilocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\buisness_logic_layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\buisness_logic_layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\authhelpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\authhelpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\easylibro\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|solutionrelative:easylibro\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\dtos\\aboutuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\dtos\\aboutuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\dtos\\userlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\dtos\\userlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\easylibro\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|solutionrelative:easylibro\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C106C0FE-4062-4B0C-B100-D0084A207963}|Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\data_access_layer\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C106C0FE-4062-4B0C-B100-D0084A207963}|Data_Access_Layer\\Data_Access_Layer.csproj|solutionrelative:data_access_layer\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C106C0FE-4062-4B0C-B100-D0084A207963}|Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\data_access_layer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C106C0FE-4062-4B0C-B100-D0084A207963}|Data_Access_Layer\\Data_Access_Layer.csproj|solutionrelative:data_access_layer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\easylibro\\serviceaccountkey.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B05F0A9-0795-48E7-8D54-B7F388E73755}|EasyLibro\\Web_Api.csproj|solutionrelative:easylibro\\serviceaccountkey.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|c:\\users\\arambage k d\\desktop\\new folder (5)\\backendfinal\\easylibrobackend\\easylibro\\buisness_logic_layer\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2B331B-50DB-48D1-B834-05757B39104B}|Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj|solutionrelative:buisness_logic_layer\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +222,681 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "EasyLibro\\Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "EasyLibro\\Controllers\\ReportController.cs",
+              "ViewState": "AQIAABwAAACAZmZmZmYmwCUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T03:33:59.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "EasyLibro\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "EasyLibro\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAUwDIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T03:33:40.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IDashboardService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Interfaces\\IDashboardService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IDashboardService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Interfaces\\IDashboardService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T03:33:03.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Services\\ReportService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\ReportService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Services\\ReportService.cs",
+              "ViewState": "AQIAAIMAAAAA0MzMzMzsvzoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T03:31:54.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\DashboardService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Services\\DashboardService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\DashboardService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Services\\DashboardService.cs",
+              "ViewState": "AQIAAE0AAAAAMjMzMzMXwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T03:24:30.088Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\appsettings.json",
+              "RelativeDocumentMoniker": "EasyLibro\\appsettings.json",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\appsettings.json",
+              "RelativeToolTip": "EasyLibro\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-03T16:54:21.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Services\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\NotificationService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Services\\NotificationService.cs",
+              "ViewState": "AQIAABsAAAAAZWZmZmYSwCYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T18:06:36.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IReportService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Interfaces\\IReportService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IReportService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Interfaces\\IReportService.cs",
+              "ViewState": "AQIAAAYAAAAAmpmZmZkJwAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T03:20:01.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EasyLibro.DAL.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\EasyLibro.DAL.cs",
+              "RelativeDocumentMoniker": "Data_Access_Layer\\EasyLibro.DAL.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\EasyLibro.DAL.cs",
+              "RelativeToolTip": "Data_Access_Layer\\EasyLibro.DAL.cs",
+              "ViewState": "AQIAABcAAADg//////8rwB8AAAClAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T02:59:41.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReservationDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\ReservationDto.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\DTOs\\ReservationDto.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\ReservationDto.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\DTOs\\ReservationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T01:45:15.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ResourceListDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\ResourceListDto.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\DTOs\\ResourceListDto.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\ResourceListDto.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\DTOs\\ResourceListDto.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA1wAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T20:10:09.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "EasyLibro\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "EasyLibro\\Controllers\\ReviewController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAewBgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T15:16:16.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IReviewService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Interfaces\\IReviewService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IReviewService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Interfaces\\IReviewService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T15:13:47.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\ReviewService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Services\\ReviewService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\ReviewService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Services\\ReviewService.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAiwEoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T14:47:52.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Startup.cs",
+              "RelativeDocumentMoniker": "EasyLibro\\Startup.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Startup.cs",
+              "RelativeToolTip": "EasyLibro\\Startup.cs",
+              "ViewState": "AQIAAEIAAACAmZmZmZkrwE0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T18:08:01.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResourceService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\ResourceService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Services\\ResourceService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\ResourceService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Services\\ResourceService.cs",
+              "ViewState": "AQIAAJAAAAAAmJmZmZkZwI8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T04:13:43.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Services\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\ReservationService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Services\\ReservationService.cs",
+              "ViewState": "AQIAABkBAADAzMzMzMwgwCcBAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T20:23:58.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240703172829_a.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Migrations\\20240703172829_a.cs",
+              "RelativeDocumentMoniker": "Data_Access_Layer\\Migrations\\20240703172829_a.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Migrations\\20240703172829_a.cs",
+              "RelativeToolTip": "Data_Access_Layer\\Migrations\\20240703172829_a.cs",
+              "ViewState": "AQIAAIIAAAAADgAAAAAqwI0AAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:28:29.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Data_Access_Layer\\Entities\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "Data_Access_Layer\\Entities\\RefreshToken.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:26:09.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Entities\\Request.cs",
+              "RelativeDocumentMoniker": "Data_Access_Layer\\Entities\\Request.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Entities\\Request.cs",
+              "RelativeToolTip": "Data_Access_Layer\\Entities\\Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:25:57.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20240703170121_a.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Migrations\\20240703170121_a.cs",
+              "RelativeDocumentMoniker": "Data_Access_Layer\\Migrations\\20240703170121_a.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Migrations\\20240703170121_a.cs",
+              "RelativeToolTip": "Data_Access_Layer\\Migrations\\20240703170121_a.cs",
+              "ViewState": "AQIAACUBAAAAaGZmZmYwwJcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:01:22.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Interfaces\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T15:13:53.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddReview.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\AddReview.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\DTOs\\AddReview.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\AddReview.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\DTOs\\AddReview.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T15:01:36.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "Data_Access_Layer\\Entities\\Review.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Entities\\Review.cs",
+              "RelativeToolTip": "Data_Access_Layer\\Entities\\Review.cs",
+              "ViewState": "AQIAAAoAAAAwMzMzMzM3wA4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T14:50:03.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NewNoticeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\NewNoticeDto.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\DTOs\\NewNoticeDto.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\NewNoticeDto.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\DTOs\\NewNoticeDto.cs",
+              "ViewState": "AQIAABkAAACAmZmZmZk2wCgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T12:19:02.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Interfaces\\INotificationService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\INotificationService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Interfaces\\INotificationService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T12:35:17.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LocationService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\LocationService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Services\\LocationService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\LocationService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Services\\LocationService.cs",
+              "ViewState": "AQIAACYAAAAAZmZmZmYuwC0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:20:08.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "EasyLibro\\Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "EasyLibro\\Controllers\\NotificationController.cs",
+              "ViewState": "AQIAACcAAADAzMzMzMwwwCoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T03:40:10.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IReservationService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Interfaces\\IReservationService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IReservationService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Interfaces\\IReservationService.cs",
+              "ViewState": "AQIAAAcAAACQmZmZmZk4wBAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T12:46:20.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\AuthService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Services\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T03:01:04.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "EasyLibro\\Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "EasyLibro\\Controllers\\ReservationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T19:59:56.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IResourceService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IResourceService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Interfaces\\IResourceService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IResourceService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Interfaces\\IResourceService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAvwBAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T04:12:02.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RequestController.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\RequestController.cs",
+              "RelativeDocumentMoniker": "EasyLibro\\Controllers\\RequestController.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\RequestController.cs",
+              "RelativeToolTip": "EasyLibro\\Controllers\\RequestController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T19:59:50.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ResourceController.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\ResourceController.cs",
+              "RelativeDocumentMoniker": "EasyLibro\\Controllers\\ResourceController.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\ResourceController.cs",
+              "RelativeToolTip": "EasyLibro\\Controllers\\ResourceController.cs",
+              "ViewState": "AQIAAC4AAACAAAAAAAAcwAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T08:14:23.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RequestService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\RequestService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Services\\RequestService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\RequestService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Services\\RequestService.cs",
+              "ViewState": "AQIAAE8AAAAANDMzMzMDwFQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T05:00:29.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IRequestService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Interfaces\\IRequestService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IRequestService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Interfaces\\IRequestService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T05:06:58.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LocationListDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\LocationListDto.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\DTOs\\LocationListDto.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\LocationListDto.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\DTOs\\LocationListDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T11:04:22.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LocationController.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\LocationController.cs",
+              "RelativeDocumentMoniker": "EasyLibro\\Controllers\\LocationController.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\LocationController.cs",
+              "RelativeToolTip": "EasyLibro\\Controllers\\LocationController.cs",
+              "ViewState": "AQIAABUAAAAAZmZmZmYSwCEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T11:01:51.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DailyJob.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\BackgroundJobs\\DailyJob.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\BackgroundJobs\\DailyJob.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\BackgroundJobs\\DailyJob.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\BackgroundJobs\\DailyJob.cs",
+              "ViewState": "AQIAAAUAAAAwMzMzMzM7wBMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T05:04:57.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ILocationService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\ILocationService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Interfaces\\ILocationService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\ILocationService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Interfaces\\ILocationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T11:01:23.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "JWTService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\AuthHelpers\\JWTService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\AuthHelpers\\JWTService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\AuthHelpers\\JWTService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\AuthHelpers\\JWTService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T08:21:46.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\UserService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Services\\UserService.cs",
+              "ViewState": "AQIAAOIAAACAmZmZmZkpwI8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T04:12:20.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Buisness_Logic_Layer.csproj",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj",
+              "ViewState": "AQIAAAkAAAAgZmZmZmYkwAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-01T18:33:20.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAABEAAAAgMzMzMzM5wBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T03:13:25.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EasyLibro\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EasyLibro\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAsAAADAZmZmZmYswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T19:59:41.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AboutUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\AboutUserDto.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\DTOs\\AboutUserDto.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\AboutUserDto.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\DTOs\\AboutUserDto.cs",
+              "ViewState": "AQIAAA4AAADAzMzMzMwiwBEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T03:33:25.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UserListDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\UserListDto.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\DTOs\\UserListDto.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\UserListDto.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\DTOs\\UserListDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T03:38:30.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EasyLibro\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EasyLibro\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEwAAACAzczMzMwqwGsAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T03:14:48.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Entities\\Permission.cs",
+              "RelativeDocumentMoniker": "Data_Access_Layer\\Entities\\Permission.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Entities\\Permission.cs",
+              "RelativeToolTip": "Data_Access_Layer\\Entities\\Permission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T02:52:18.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Data_Access_Layer\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Entities\\User.cs",
+              "RelativeToolTip": "Data_Access_Layer\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T02:53:04.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\DTOs\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\DTOs\\CreateUserDto.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\DTOs\\CreateUserDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAvwA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T02:56:03.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "serviceAccountKey.json",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\serviceAccountKey.json",
+              "RelativeDocumentMoniker": "EasyLibro\\serviceAccountKey.json",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\serviceAccountKey.json",
+              "RelativeToolTip": "EasyLibro\\serviceAccountKey.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T18:09:31.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Buisness_Logic_Layer\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Services\\EmailService.cs",
+              "RelativeToolTip": "Buisness_Logic_Layer\\Services\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T04:10:24.054Z"
             }
           ]
         }

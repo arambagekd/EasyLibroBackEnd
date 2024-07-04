@@ -94,7 +94,7 @@ namespace Buisness_Logic_Layer.Services
             }
         }
 
-        public async Task<IActionResult> SearchResources(SearchbookDto searchbookDto)
+        public async Task<List<ResourceListDto>> SearchResources(SearchbookDto searchbookDto)
         {
             var records = new List<Resource>();
             List<ResourceListDto> reso = new List<ResourceListDto>();
@@ -133,7 +133,18 @@ namespace Buisness_Logic_Layer.Services
 
             foreach (var x in records)
             {
-                int count= _Context.Reservations.Where(e => e.ResourceId == x.ISBN).Count();
+                int count = _Context.Reservations.Where(e => e.ResourceId == x.ISBN).Count();
+                int ratings=_Context.Reviews.Where(e=>e.ISBN==x.ISBN).Sum(e=>e.Stars);
+                int no_of_ratings = _Context.Reviews.Where(e => e.ISBN == x.ISBN).Count();
+                double raating = 0;
+                if(no_of_ratings==0
+                    ) {
+                    raating = 0;
+                }
+                else 
+                {
+                    raating = (double)ratings / no_of_ratings;
+                }
                 var y = new ResourceListDto
                 {
                     isbn = x.ISBN,
@@ -146,12 +157,13 @@ namespace Buisness_Logic_Layer.Services
                     noOfRes=count,
                     author = x.AuthorName,
                     location = x.BookLocation,
-                    year=x.Year
+                    year=x.Year,
+                    ratings=raating
                 };
 
                 reso.Add(y);
             }
-            return new OkObjectResult(reso);
+            return reso;
         }
 
 
@@ -247,5 +259,20 @@ namespace Buisness_Logic_Layer.Services
             }
         }
 
+
+        public async Task<IActionResult> GetAuthors()
+        {
+            var authorlist = await _Context.Author.ToListAsync();
+            return new OkObjectResult(authorlist);
+        }
+
+        public async Task<IActionResult> GetBookTypes()
+        {
+            var types = await _Context.Resources
+                            .Select(r => r.Type)
+                            .Distinct()
+                            .ToListAsync();
+            return new OkObjectResult( types);
+        }
     }
 }

@@ -17,7 +17,7 @@ namespace EasyLibro.Controllers
 
 
 
-       [HttpPost("getDashboradData")]
+        [HttpPost("getDashboradData")]
         public async Task<IActionResult> getDashboradData()
         {
             var httpContext = HttpContext;
@@ -40,6 +40,11 @@ namespace EasyLibro.Controllers
         public async Task<List<LastWeekReservations>> getLastWeekUsers()
         {
             return await _dashboardService.getLastWeekUsers();
+        }
+        [HttpPost("getLastWeekResourses")]
+        public async Task<List<LastWeekReservations>> getLastWeekResourses()
+        {
+            return await _dashboardService.getLastWeekResourses();
         }
         [HttpPost("getAnouncement")]
         public async Task<IActionResult> getAnouncement()

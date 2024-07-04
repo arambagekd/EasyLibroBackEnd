@@ -1,0 +1,15 @@
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\bin\Release\net8.0\Data_Access_Layer.deps.json
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\bin\Release\net8.0\Data_Access_Layer.runtimeconfig.json
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\bin\Release\net8.0\Data_Access_Layer.dll
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\bin\Release\net8.0\Data_Access_Layer.pdb
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\obj\Release\net8.0\Data_Access_Layer.csproj.AssemblyReference.cache
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\obj\Release\net8.0\Data_Access_Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\obj\Release\net8.0\Data_Access_Layer.AssemblyInfoInputs.cache
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\obj\Release\net8.0\Data_Access_Layer.AssemblyInfo.cs
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\obj\Release\net8.0\Data_Access_Layer.csproj.CoreCompileInputs.cache
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\obj\Release\net8.0\Data_Access_Layer.sourcelink.json
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\obj\Release\net8.0\Data_Access_Layer.dll
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\obj\Release\net8.0\refint\Data_Access_Layer.dll
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\obj\Release\net8.0\Data_Access_Layer.pdb
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\obj\Release\net8.0\Data_Access_Layer.genruntimeconfig.cache
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Data_Access_Layer\obj\Release\net8.0\ref\Data_Access_Layer.dll

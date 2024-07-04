@@ -9,9 +9,11 @@ namespace Buisness_Logic_Layer.Interfaces
     {
         Task<IActionResult> AddResource(AddBookRequestDto book,HttpContext httpContext);
         Task<IActionResult> DeleteResource(string isbn);
-        Task<IActionResult> SearchResources(SearchbookDto searchbookDto);
+        Task<List<ResourceListDto>> SearchResources(SearchbookDto searchbookDto);
         Task<IActionResult> EditResource(AddBookRequestDto book);
         Task<IActionResult> AboutResource(string isbn);
         Task WeeklyBookUpdates();
+        Task<IActionResult> GetAuthors();
+        Task<IActionResult> GetBookTypes();
     }
 }

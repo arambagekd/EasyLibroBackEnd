@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EasyLibro.Controllers
 {
-   // [Authorize]
+  //  [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ResourceController : ControllerBase
@@ -46,9 +46,21 @@ namespace EasyLibro.Controllers
 
 
         [HttpPost("SearchResources")]
-        public async Task<IActionResult> SearchResources(SearchbookDto searchbookDto)
+        public async Task<List<ResourceListDto>> SearchResources(SearchbookDto searchbookDto)
         {
             return await _resourceService.SearchResources(searchbookDto);
+        }
+
+        [HttpGet("GetAuthorList")]
+        public async Task<IActionResult> GetAuthorList()
+        {
+           return await _resourceService.GetAuthors();
+        }
+
+        [HttpGet("GetTypes")]
+        public async Task<IActionResult> GetBookTypes()
+        {
+            return await _resourceService.GetBookTypes();
         }
 
 

@@ -38,5 +38,11 @@ namespace EasyLibro.Controllers
         {
             return await _locationService.AddLocation(location);
         }
+
+        [HttpDelete("DeleteLocation")]
+        public async Task<IActionResult> DeleteCupboard(int cupboardid)
+        {
+            return await _locationService.DeleteCupboard(cupboardid);
+        }
     }
 }

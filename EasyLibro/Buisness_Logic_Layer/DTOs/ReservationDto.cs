@@ -4,6 +4,7 @@
     {
         public int reservationNo { get; set; }
         public string Resource { get; set; }
+        public string ResourceTitle { get; set; }
         public string UserName { get; set; }
         public string UserId { get; set; }
         public string BorrowerName { get; set; }

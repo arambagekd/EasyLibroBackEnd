@@ -14,6 +14,7 @@ namespace Buisness_Logic_Layer.Interfaces
         Task<IActionResult> SearchReservation(SearchDetails details,HttpContext httpContext);
         Task<IActionResult> deleteReservation(int id);
         Task<IActionResult> extendDue(int id,string due);
+        Task<IActionResult> Remind();
         Task setOverdue();
         Task addPenalty();
     }

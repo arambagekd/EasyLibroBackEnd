@@ -36,6 +36,10 @@ namespace Buisness_Logic_Layer.Services
             {
                 return false;
             }
+            if(setToken.Token==null || setToken.Token == "")
+            {
+                return false;
+            }
             var newconnection = new FirebaseConnection
             {
                 userName = setToken.UserName,
@@ -118,7 +122,8 @@ namespace Buisness_Logic_Layer.Services
                             Body = newnotice.Description
                         }
                     };
-                    var response = await FirebaseMessaging.DefaultInstance.SendMulticastAsync(message);
+                    var response = await FirebaseMessaging.DefaultInstance.SendMulticastAsync(message) ;
+
                 }catch(Exception e)
                 {
                    
@@ -163,12 +168,35 @@ namespace Buisness_Logic_Layer.Services
             await _Context.SaveChangesAsync();
             return true;
         }
-        public async Task<List<NewNoticeDto>> GetNotification()
+        public async Task<List<NewNoticeDto>> GetNotification(SearchNotification searchnotification)
         {
             var notificationlist = new List<NewNoticeDto>();
-            var notifications = await _Context.Notifications.ToListAsync();
+            var notifications = new List<Notifications>();
 
-            foreach(var x in notifications)
+
+
+            if (searchnotification.keyword == "")
+            {
+                notifications = await _Context.Notifications.ToListAsync();
+            }
+
+            else if (searchnotification.type == "all" )
+            {
+               
+                
+               
+                    notifications = await _Context.Notifications.Where(e=>e.ToUser.Contains(searchnotification.keyword)|| e.Description.Contains(searchnotification.keyword)|| e.Title.Contains(searchnotification.keyword)).ToListAsync();
+              
+            }else if(searchnotification.type == "user")
+            {
+                notifications = await _Context.Notifications.Where(e => e.ToUser.Contains(searchnotification.keyword)).ToListAsync();
+            }
+            else if (searchnotification.type == "title")
+            {
+                notifications = await _Context.Notifications.Where(e => e.Title.Contains(searchnotification.keyword)).ToListAsync();
+            }
+
+            foreach (var x in notifications)
                 {
                     var y = new NewNoticeDto
                     {

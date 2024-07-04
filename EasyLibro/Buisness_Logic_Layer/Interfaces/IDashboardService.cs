@@ -1,4 +1,5 @@
 ﻿using Buisness_Logic_Layer.DTOs;
+using Data_Access_Layer;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,6 +12,8 @@ namespace Buisness_Logic_Layer.Interfaces
         Task<IActionResult> getAnouncement(HttpContext httpContext);
         Task<List<LastWeekReservations>> getLastWeekReservations();
         Task<List<LastWeekReservations>> getLastWeekUsers();
-        
+        Task<List<LastWeekReservations>> getLastWeekResourses();
+
+
     }
 }

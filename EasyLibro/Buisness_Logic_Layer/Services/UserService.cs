@@ -7,6 +7,7 @@ using Buisness_Logic_Layer.AuthHelpers;
 using Buisness_Logic_Layer.DTOs;
 using Data_Access_Layer.Entities;
 using Buisness_Logic_Layer.EmailTemplates;
+using Azure.Identity;
 
 
 
@@ -63,7 +64,6 @@ namespace Buisness_Logic_Layer.Services
                     Address = userdto.Address,
                     PhoneNumber = userdto.PhoneNumber,
                     Password = BCrypt.Net.BCrypt.HashPassword(password),
-                    NIC = userdto.NIC,
                     UserType = userdto.UserType,
                     AddedById = addedby,
                     Status = "free",
@@ -72,11 +72,13 @@ namespace Buisness_Logic_Layer.Services
                     Image=null
                 };
 
-                //Add user object to _Context
-                _Context.Users.Add(user);
-
-
-                //Database update
+                var permi = new Permission
+                {
+                    userName = user.UserName,
+                    permission = true
+                };
+                await _Context.Users.AddAsync(user);
+                await _Context.Permissions.AddAsync(permi);
                 await _Context.SaveChangesAsync();
                 var htmlBody = new EmailTemplate().DefaultPassword(password);
                 await _emailService.SendEmail(htmlBody, user.Email, "You are successfully registered to the library service");
@@ -98,7 +100,6 @@ namespace Buisness_Logic_Layer.Services
         {
             return await _Context.Users.FirstOrDefaultAsync(u => u.UserName == userName);
         }
-
         public async Task<bool> DeleteUser(string username)
         {
             var user = await _Context.Users.FirstOrDefaultAsync(u => u.UserName == username);
@@ -113,8 +114,6 @@ namespace Buisness_Logic_Layer.Services
                 return true;
             }
         }
-
-
         public async Task<AboutUserDto> AboutUser(string username)
         {
             var user = await _Context.Users.FirstOrDefaultAsync(e => e.UserName == username);
@@ -126,6 +125,7 @@ namespace Buisness_Logic_Layer.Services
             else
             {
                 var count = await _Context.Reservations.CountAsync(e => e.BorrowerID == user.UserName);
+                var per=await _Context.Permissions.FirstOrDefaultAsync(e=>e.userName== user.UserName);
                 var aboutuser = new AboutUserDto
                 {
                     UserName = user.UserName,
@@ -138,16 +138,15 @@ namespace Buisness_Logic_Layer.Services
                     DOB = user.DOB,
                     Address = user.Address,
                     Status = user.Status,
-                    nic = user.NIC,
                     reservationcount = count,
                     Gender=user.Gender,
-                    Image=user.Image
+                    Image=user.Image,
+                    permission=per.permission
                 };
 
                 return aboutuser;
             }
         }
-
         public async Task<bool> EditUser(EditUserRequestDto edituser, HttpContext httpContext)
         {
 
@@ -158,7 +157,6 @@ namespace Buisness_Logic_Layer.Services
                 user.LName = edituser.LName;
                 user.PhoneNumber = edituser.PhoneNumber;
                 user.Address = edituser.Address;
-                user.NIC = edituser.NIC;
                 user.Gender = edituser.Gender;
                 user.DOB = DateOnly.Parse(edituser.DOB);
                 await _Context.SaveChangesAsync();
@@ -221,14 +219,15 @@ namespace Buisness_Logic_Layer.Services
             List<UserListDto> userlist = new List<UserListDto>();
             foreach (var x in k)
             {
-
+                var per= await _Context.Permissions.FirstOrDefaultAsync(e=>e.userName==x.UserName);
                 var user = new UserListDto
                 {
                     username = x.UserName,
                     Name = x.FName + " " + x.LName,
                     Email = x.Email,
                     Role = x.UserType,
-                    Image=x.Image
+                    Image=x.Image,
+                    Permission=per.permission
                 };
                 userlist.Add(user);
             }
@@ -236,7 +235,6 @@ namespace Buisness_Logic_Layer.Services
 
 
         }
-
         public async Task<bool> ChangePassword(ChangePasswordDto request, HttpContext httpContext)
 
         {
@@ -260,8 +258,6 @@ namespace Buisness_Logic_Layer.Services
                 }
             }
         }
-
-
         public async Task<bool> ResetPassword(ChangePasswordDto request, HttpContext httpContext)
 
         {
@@ -280,9 +276,6 @@ namespace Buisness_Logic_Layer.Services
 
             }
         }
-
-
-
         public async Task<AboutUserDto> GetMyData(HttpContext httpContext)
         {
             var username = _jwt.GetUsername(httpContext);
@@ -295,6 +288,7 @@ namespace Buisness_Logic_Layer.Services
             }
             else
             {
+                var per=await _Context.Permissions.FirstOrDefaultAsync(e=>e.userName==username);
                 var aboutuser = new AboutUserDto
                 {
                     UserName = user.UserName,
@@ -305,17 +299,16 @@ namespace Buisness_Logic_Layer.Services
                     ActualType = user.UserType,
                     Phone = user.PhoneNumber,
                     DOB = user.DOB,
-                    nic = user.NIC,
                     Address = user.Address,
                     Status = user.Status,
                     Gender=user.Gender,
-                    Image=user.Image
+                    Image=user.Image,
+                    permission=per.permission
                 };
 
                 return aboutuser;
             }
         }
-
         public async Task<String> GetEmail(HttpContext httpContext)
         {
             var username = _jwt.GetUsername(httpContext);
@@ -330,7 +323,6 @@ namespace Buisness_Logic_Layer.Services
                 return user.Email;
             }
         }
-
         public async Task<bool> ChangeEmail(string newEmail, HttpContext httpContext)
         {
             var username = _jwt.GetUsername(httpContext);
@@ -351,8 +343,6 @@ namespace Buisness_Logic_Layer.Services
                 return true;
             }
         }
-
-       
         public async Task<bool> SendForgotPasswordEmail(string email)
         {
             var user = await _Context.Users.FirstOrDefaultAsync(e => e.Email == email);
@@ -377,7 +367,6 @@ namespace Buisness_Logic_Layer.Services
                 }
             }
         }
-
         public async Task<bool> AddAdmin()
         {
             try
@@ -392,13 +381,18 @@ namespace Buisness_Logic_Layer.Services
                     Address = "admin",
                     PhoneNumber = "admin",
                     Password = BCrypt.Net.BCrypt.HashPassword("123456"),
-                    NIC = "admin",
                     UserType = "admin",
                     AddedById = "admin",
                     Status = "free",
                     AddedDate = DateOnly.FromDateTime(DateTime.Now),
                     Gender="male"
                 };
+                var permi = new Permission
+                {
+                    userName = user.UserName,
+                    permission = true
+                };
+                await _Context.Permissions.AddAsync(permi);
                 await _Context.Users.AddAsync(user);
                 await _Context.SaveChangesAsync();
                 return true;
@@ -406,6 +400,19 @@ namespace Buisness_Logic_Layer.Services
             {
                 throw new Exception("Admin Already Exists");
             }
+        }
+        public async Task<bool> Permission(string username)
+        {
+            var user = await _Context.Permissions.FirstOrDefaultAsync(e => e.userName == username);
+            if(user == null)
+            {
+                throw new Exception("User not found");
+            }
+
+            user.permission=  !user.permission;
+            await _Context.SaveChangesAsync();
+            return true;
+
         }
     }
 }

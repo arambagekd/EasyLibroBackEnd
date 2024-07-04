@@ -20,6 +20,7 @@ namespace Buisness_Logic_Layer.Interfaces
         Task<String> GetEmail(HttpContext httpContext);
         Task<bool> ChangeEmail(string newEmail, HttpContext httpContext);
         Task<bool> SendForgotPasswordEmail(string email);
+        Task<bool> Permission(string username);
         Task<bool> ResetPassword(ChangePasswordDto request, HttpContext httpContext);
         Task<bool> AddAdmin();
     }

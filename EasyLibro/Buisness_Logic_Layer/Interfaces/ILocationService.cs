@@ -8,5 +8,6 @@ namespace Buisness_Logic_Layer.Interfaces
         Task<IActionResult> GetAllLocation(string cupboardname);
         Task<IActionResult> SearchResources(SearchbookcupDto request);
         Task<IActionResult> AddLocation(AddLocationDto location);
+        Task<IActionResult> DeleteCupboard(int cupboardid);
     }
 }

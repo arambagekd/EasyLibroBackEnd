@@ -102,6 +102,13 @@ namespace EasyLibro.Controllers
             return await _userService.SendForgotPasswordEmail(email.emailaddress);
         }
 
+        [HttpGet("SetPermission")]
+        public async Task<bool> Permission(string username)
+        {
+            return await _userService.Permission(username);
+        }
+
+
        public class user
         {
             public string username { get; set; }
@@ -112,5 +119,7 @@ namespace EasyLibro.Controllers
         {
             return await _userService.AddAdmin();
         }
+
+
     }
     }

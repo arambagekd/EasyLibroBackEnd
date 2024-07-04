@@ -7,6 +7,7 @@ using Data_Access_Layer.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Resources;
 
 namespace Buisness_Logic_Layer.Services
 {
@@ -53,6 +54,11 @@ namespace Buisness_Logic_Layer.Services
             if (borrower == null) //If User not found
             {
                 return new BadRequestObjectResult("Wrong Borrower Name");
+            }
+            var per = await _Context.Permissions.FirstOrDefaultAsync(u => u.userName == borrower.UserName);
+            if (!per.permission)
+            {
+                return new BadRequestObjectResult("User was blocked..");
             }
             //Decrease Quantity of resource by 1
             resource.Quantity = resource.Quantity - 1;
@@ -248,17 +254,31 @@ namespace Buisness_Logic_Layer.Services
                 bool success = int.TryParse(details.Keywords, out number);
                 if (success)
                 {
-
+                    var filteredReservations = from r in _Context.Reservations
+                                               join res in _Context.Resources on r.ResourceId equals res.ISBN
+                                               where res.Title.ToLower().Contains(details.Keywords.ToLower())
+                                               select r;
+                    var l = filteredReservations.ToList();
                     k = k.Where(e =>
                     e.BorrowerID.ToLower().Contains(details.Keywords.ToLower())
                     || e.ResourceId.ToLower().Contains(details.Keywords.ToLower())
                     || e.Id.Equals(number)).ToList();
+
+                    k = k.Union(l).ToList();
                 }
                 else
                 {
+                    var filteredReservations = from r in _Context.Reservations
+                                               join res in _Context.Resources on r.ResourceId equals res.ISBN
+                                               where res.Title.ToLower().Contains(details.Keywords.ToLower())
+                                               select r;
+                    var l = filteredReservations.ToList();
+
                     k = k.Where(e =>
                     e.BorrowerID.ToLower().Contains(details.Keywords.ToLower())
                     || e.ResourceId.ToLower().Contains(details.Keywords.ToLower())).ToList();
+
+                    k = k.Union(l).ToList();
                 }
             }
             else if (details.type=="userId")
@@ -267,7 +287,14 @@ namespace Buisness_Logic_Layer.Services
             }
             else if (details.type== "resourceId")
             {
-                k = k.Where(e => e.ResourceId.ToLower().Contains(details.Keywords.ToLower())).ToList();
+                var filteredReservations = from r in _Context.Reservations
+                                           join res in _Context.Resources on r.ResourceId equals res.ISBN
+                                           where res.Title.ToLower().Contains(details.Keywords.ToLower())
+                                           select r;
+               var z = k.Where(e => e.ResourceId.ToLower().Contains(details.Keywords.ToLower())).ToList();
+               k=filteredReservations.ToList();
+                k = k.Union(z).ToList(); 
+                
             }
             else if (details.type== "reservationId")
             {
@@ -288,6 +315,7 @@ namespace Buisness_Logic_Layer.Services
             List<ReservationDto> reservationlist = new List<ReservationDto>();
             foreach(var x in k) {
                 var userob = await _Context.Users.FirstOrDefaultAsync(u => u.UserName == x.BorrowerID);
+                var resource = await _Context.Resources.FirstOrDefaultAsync(u => u.ISBN == x.ResourceId);
                 var res = new ReservationDto
                 {
                     reservationNo = x.Id,
@@ -297,7 +325,8 @@ namespace Buisness_Logic_Layer.Services
                     UserName=userob.FName+" "+ userob.LName,
                     DueDate=x.DueDate,
                     IssueDate=x.IssuedDate,
-                    Status=x.Status//need to look due or not
+                    Status=x.Status,
+                    ResourceTitle=x.ResourceId!=null?resource.Title:"resources removed"
                 };
                 reservationlist.Add(res);
             }
@@ -340,6 +369,10 @@ namespace Buisness_Logic_Layer.Services
             else
             {
                 reservation.DueDate = DateOnly.Parse(due);
+                if (DateOnly.FromDateTime(DateTime.Now) < reservation.DueDate)
+                {
+                    reservation.Status = "borrowed";
+                }
                 await _Context.SaveChangesAsync();
                 return new OkObjectResult(true);
             }
@@ -362,6 +395,17 @@ namespace Buisness_Logic_Layer.Services
 
             Console.WriteLine("Recurring job scheduled to set overdue reservations.");
         }
+
+        public async Task<IActionResult> Remind()
+        {
+            var overduereservaton = await _Context.Reservations.Where(e => e.Status == "overdue").ToListAsync();
+            foreach(var record in overduereservaton)
+            {
+                await _notificationService.SetRemind(record);
+            }
+            return new OkObjectResult("Remind All");
+
+        } 
 
         public async Task addPenalty()
         {

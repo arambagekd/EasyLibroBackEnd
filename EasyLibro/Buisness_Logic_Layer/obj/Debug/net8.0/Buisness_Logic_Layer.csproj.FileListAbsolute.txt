@@ -15,3 +15,19 @@ C:\Users\Arambage K D\source\repos\EasyLibro\Buisness_Logic_Layer\obj\Debug\net8
 C:\Users\Arambage K D\source\repos\EasyLibro\Buisness_Logic_Layer\obj\Debug\net8.0\ref\Buisness_Logic_Layer.dll
 C:\Users\Arambage K D\source\repos\EasyLibro\Buisness_Logic_Layer\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Arambage K D\source\repos\EasyLibro\Buisness_Logic_Layer\bin\Debug\net8.0\appsettings.json
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\bin\Debug\net8.0\Buisness_Logic_Layer.deps.json
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\bin\Debug\net8.0\Buisness_Logic_Layer.dll
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\bin\Debug\net8.0\Buisness_Logic_Layer.pdb
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\bin\Debug\net8.0\Data_Access_Layer.dll
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\bin\Debug\net8.0\Data_Access_Layer.pdb
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\obj\Debug\net8.0\Buisness_Logic_Layer.csproj.AssemblyReference.cache
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\obj\Debug\net8.0\Buisness_Logic_Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\obj\Debug\net8.0\Buisness_Logic_Layer.AssemblyInfoInputs.cache
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\obj\Debug\net8.0\Buisness_Logic_Layer.AssemblyInfo.cs
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\obj\Debug\net8.0\Buisness_Logic_Layer.csproj.CoreCompileInputs.cache
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\obj\Debug\net8.0\Buisness_Logic_Layer.sourcelink.json
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\obj\Debug\net8.0\Buisness.9B639209.Up2Date
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\obj\Debug\net8.0\Buisness_Logic_Layer.dll
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\obj\Debug\net8.0\refint\Buisness_Logic_Layer.dll
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\obj\Debug\net8.0\Buisness_Logic_Layer.pdb
+C:\Users\Arambage K D\Desktop\New folder (5)\BackEndFinal\EasyLibroBackEnd\EasyLibro\Buisness_Logic_Layer\obj\Debug\net8.0\ref\Buisness_Logic_Layer.dll

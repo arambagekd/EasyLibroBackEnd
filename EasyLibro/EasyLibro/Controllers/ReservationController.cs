@@ -62,6 +62,12 @@ namespace EasyLibro.Controllers
         {
             return await _reservationService.extendDue(id,due);
         }
-       
+
+        [HttpGet("RemindOverdue")]
+        public async Task<IActionResult> Remind()
+        {
+            return await _reservationService.Remind();
+        }
+
     }
 }

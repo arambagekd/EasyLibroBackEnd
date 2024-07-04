@@ -22,6 +22,8 @@ namespace Data_Access_Layer
         public DbSet<NotificationUser> NotificationUser { get; set; }
         public DbSet<FirebaseConnection> FirebaseConnections { get; set; }
         public DbSet<RefreshToken> RefreshTokens { get; set; }
+        public DbSet<Permission> Permissions { get; set; }
+        public DbSet<Review> Reviews { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

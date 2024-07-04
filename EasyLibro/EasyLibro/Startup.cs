@@ -57,6 +57,7 @@ public class Startup
         services.AddScoped<IDashboardService, DashboardService>();
         services.AddScoped<ILocationService, LocationService>();
         services.AddScoped<IAuthService, AuthService>();
+        services.AddScoped<IReviewService,ReviewService>();
         services.AddScoped<JWTService>();
         services.AddScoped<RefreshTokenService>();
     }
@@ -76,7 +77,7 @@ public class Startup
                 IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("this is a very secure key for me")),
                 ValidateIssuer = false,
                 ValidateAudience = false,
-                ValidateLifetime = true,
+                ValidateLifetime = false,
                 ValidateIssuerSigningKey = true,
                 ClockSkew = TimeSpan.Zero
             };
@@ -128,16 +129,18 @@ public class Startup
         app.UseHttpsRedirection();
 
         app.UseCors(options => options
-            .WithOrigins("http://localhost:3000")
+            .WithOrigins("http://localhost:3000", "https://easylibro.online")
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials()
         );
 
+        app.UseRouting();  // Ensure routing is added
+
         app.UseAuthentication();
         app.UseAuthorization();
 
-        app.UseRouting();  // Ensure routing is added
+        
 
         app.UseEndpoints(endpoints =>  // Map controllers correctly
         {

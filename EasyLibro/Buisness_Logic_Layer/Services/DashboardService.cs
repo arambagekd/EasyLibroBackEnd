@@ -15,7 +15,7 @@ namespace Buisness_Logic_Layer.Services
         private readonly DataContext _dataContext;
         private readonly JWTService _jwt;
 
-        public DashboardService(DataContext dataContext,JWTService jWTService)
+        public DashboardService(DataContext dataContext, JWTService jWTService)
         {
             _dataContext = dataContext;
             _jwt = jWTService;
@@ -23,7 +23,7 @@ namespace Buisness_Logic_Layer.Services
 
         public async Task<IActionResult> getDashboradData(HttpContext httpContext)
         {
-            var count =_dataContext.Resources.Sum(e=>e.Quantity)+ _dataContext.Resources.Sum(e => e.Borrowed);
+            var count = _dataContext.Resources.Sum(e => e.Quantity) + _dataContext.Resources.Sum(e => e.Borrowed);
             var usertype = _jwt.GetUserType(httpContext);
             if (usertype == "admin")
             {
@@ -40,13 +40,14 @@ namespace Buisness_Logic_Layer.Services
                 };
 
                 return new OkObjectResult(Statics);
-            }if(usertype == "patron")
+            }
+            if (usertype == "patron")
             {
                 var username = _jwt.GetUsername(httpContext);
-                var user = await _dataContext.Users.FirstOrDefaultAsync(e => e.UserName == username);   
+                var user = await _dataContext.Users.FirstOrDefaultAsync(e => e.UserName == username);
                 var Statics = new PatronDashboardStatics
                 {
-                    Status =user.Status,
+                    Status = user.Status,
                     myReservations = await _dataContext.Reservations.Where(e => e.BorrowerID == username).CountAsync(),
                     Requests = await _dataContext.Requests.Where(e => e.UserId == username).CountAsync(),
                     Penalty = 0
@@ -85,7 +86,7 @@ namespace Buisness_Logic_Layer.Services
                 };
                 reservationlist.Add(res);
             }
-            return new OkObjectResult( reservationlist);
+            return new OkObjectResult(reservationlist);
 
         }
 
@@ -125,13 +126,32 @@ namespace Buisness_Logic_Layer.Services
             }
             return lastWeekList;
         }
+        public async Task<List<LastWeekReservations>> getLastWeekResourses()
+        {
+            var lastWeekList = new List<LastWeekReservations>();
+            for (int x = 6; x >= 0; x--)
+            {
+                DateTime issueDate = DateTime.Today.AddDays(-x);
+                int count = _dataContext.Resources.Where(e => e.AddedOn.Date == issueDate.Date).Count();
+
+                var a = new LastWeekReservations
+                {
+                    day = issueDate.ToString("MM-dd"),
+                    y = count,
+                };
+                lastWeekList.Add(a);
+            }
+            return lastWeekList;
+        }
+
+
 
         public async Task<IActionResult> getAnouncement(HttpContext httpContext)
         {
             var username = _jwt.GetUsername(httpContext);
             var notification = _dataContext.Notifications
-                               .Where(s => _dataContext.NotificationUser.Any(e => e.UserName == username  && e.NotificationId == s.Id && s.Type== "notice"))
-                               .ToList().Select(e=>e.Description);
+                               .Where(s => _dataContext.NotificationUser.Any(e => e.UserName == username && e.NotificationId == s.Id && s.Type == "notice"))
+                               .ToList().Select(e => e.Description);
             return new OkObjectResult(notification);
         }
     }

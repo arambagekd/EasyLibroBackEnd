@@ -37,10 +37,10 @@ namespace EasyLibro.Controllers
         }
 
         [HttpPost("GetNotificatons")]
-        public async Task<List<NewNoticeDto>> GetNotification()
+        public async Task<List<NewNoticeDto>> GetNotification(SearchNotification searchnotification)
         {
           
-           return await _notificationService.GetNotification();
+           return await _notificationService.GetNotification(searchnotification);
         }
         [HttpPost("GetMyNotificatons")]
         public async Task<List<MyNotificationDto>> GetMyNotification()

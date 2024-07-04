@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N1yQaWcXrFRxeebySK3HornL228giBU/rr/YkUkzFHWkt54ATJ4w5IZG2eeZ+4Xit3vO2i27llfGG0s5uDHMcw==",
+  "dgSpecHash": "iFOOzf2bgwF8yvxWb1RTQiePnroQ6pXDdUDh8cGMrThRRb9+Bepnh0k9+6Oz9xkh8OZBS8EIcWUXQhX3XSADpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\EasyLibro\\Web_Api.csproj",
+  "projectFilePath": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Web_Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arambage K D\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Arambage K D\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

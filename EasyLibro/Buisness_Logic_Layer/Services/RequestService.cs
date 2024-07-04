@@ -4,6 +4,7 @@ using Buisness_Logic_Layer.Interfaces;
 using Data_Access_Layer;
 using Data_Access_Layer.Entities;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -23,7 +24,7 @@ namespace Buisness_Logic_Layer.Services
             _jwTService = jwtService;
             _reservationService = reservationService;
         }
-        public async Task<bool> AddRequest(AddRequestDto request,HttpContext httpContext)
+        public async Task<IActionResult> AddRequest(AddRequestDto request,HttpContext httpContext)
         {
             var userName = _jwTService.GetUsername(httpContext);
             var resource = await _Context.Resources.FirstOrDefaultAsync(u => u.ISBN == request.ISBN);
@@ -33,15 +34,15 @@ namespace Buisness_Logic_Layer.Services
 
             if (resource.Quantity < 1) //If not enough resources
             {
-                throw new Exception("No of Books not enough");
+                return new BadRequestObjectResult("No of Books not enough");
             }
             else if (borrower.Status == "Loan") //If User in a loan
             {
-                throw new Exception("User in a loan");
+                return new BadRequestObjectResult("You are in a loan");
             }
             else if (count >= 3)
             {
-                throw new Exception("You Exceed Request Count");
+                return new BadRequestObjectResult("You Exceed Request Count");
             }
             else
             {
@@ -62,7 +63,7 @@ namespace Buisness_Logic_Layer.Services
                 _Context.Requests.Add(newrequest);//Add the Reservation
                 await _Context.SaveChangesAsync();
 
-                return true;
+                return new OkObjectResult(true);
             }
         }
         public async Task<List<GetRequestDto>> GetRequestList(HttpContext httpContext)
@@ -97,12 +98,12 @@ namespace Buisness_Logic_Layer.Services
             }
             return requestlist;
         }
-        public async Task<bool> RemoveRequestList(int id)
+        public async Task<IActionResult> RemoveRequestList(int id)
         {
             var request = await _Context.Requests.FirstOrDefaultAsync(e => e.Id == id);
             if (request == null)
             {
-                throw new Exception("No Request Found");
+                return new BadRequestObjectResult("No Request Found");
             }
             else
             {
@@ -113,15 +114,14 @@ namespace Buisness_Logic_Layer.Services
                 //user.Status = "free";
                 _Context.Requests.Remove(request);
                  await _Context.SaveChangesAsync();
-                 return true;
+                 return new OkObjectResult(true);
             }
         }
 
-        public void DeleteExpiredRequests()
+        public async Task DeleteExpiredRequests()
         {
-            var request = _Context.Requests.FirstOrDefault();
-            _Context.Requests.Remove(request);
-            _Context.SaveChanges();
+            var requests= await _Context.Requests.Where(e=>e.Date.AddDays(2)>= DateOnly.FromDateTime(DateTime.Today)).ToListAsync();
+            _Context.RemoveRange(requests);
         }
 
     }

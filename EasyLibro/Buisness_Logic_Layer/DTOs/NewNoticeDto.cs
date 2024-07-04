@@ -33,4 +33,10 @@
         public string Token { get; set; }
         public string UserName { get; set; }
     }
+
+    public class SearchNotification
+    {
+        public string keyword { get; set; }
+        public string type { get; set; }
+    }
 }

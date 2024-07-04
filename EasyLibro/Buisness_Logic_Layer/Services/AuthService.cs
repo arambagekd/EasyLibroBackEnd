@@ -35,7 +35,6 @@ namespace Buisness_Logic_Layer.Services
                 return new BadRequestObjectResult("User not found");
             }
              if (!(BCrypt.Net.BCrypt.Verify( request.password, user.Password)))
-            //if (request.password == user.Password)
                 if (request.password != user.Password)
                 {
                     return new BadRequestObjectResult("Wrong Password");
@@ -46,6 +45,14 @@ namespace Buisness_Logic_Layer.Services
                 userName = user.UserName,
                 password = user.Password,
             };
+
+            var permiss=await _Context.Permissions.FirstOrDefaultAsync(e=>e.userName== request.userName);
+
+            if (!(permiss.permission))
+            {
+                return new BadRequestObjectResult("Permission Denied");
+            }
+
             var jwt = _jwtService.Generate(user.UserName, user.UserType);
             var refreshtoken = _refreshTokenService.GenerateRefreshToken();
             var refreshToken = new RefreshToken
@@ -88,6 +95,14 @@ namespace Buisness_Logic_Layer.Services
                 userName = user.UserName,
                 password = user.Password,
             };
+
+            var permiss = await _Context.Permissions.FirstOrDefaultAsync(e => e.userName == request.userName);
+
+            if (!(permiss.permission))
+            {
+                return new BadRequestObjectResult("Permission Denied");
+            }
+
             var jwt = _jwtService.GenerateMobileJwt(user.UserName, user.UserType);
            
             
@@ -153,6 +168,11 @@ namespace Buisness_Logic_Layer.Services
             if (role == null)
             {
                 return new BadRequestObjectResult("Invalid client request");
+            }
+            var permiss = await _Context.Permissions.FirstOrDefaultAsync(e => e.userName == username);
+            if (!(permiss.permission))
+            {
+                return new BadRequestObjectResult("Permission Denied");
             }
 
             var savedRefreshToken = await _Context.RefreshTokens

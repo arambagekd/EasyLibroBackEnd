@@ -151,6 +151,19 @@ namespace Data_Access_Layer.Migrations
                     b.ToTable("Notifications");
                 });
 
+            modelBuilder.Entity("Data_Access_Layer.Entities.Permission", b =>
+                {
+                    b.Property<string>("userName")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<bool>("permission")
+                        .HasColumnType("bit");
+
+                    b.HasKey("userName");
+
+                    b.ToTable("Permissions");
+                });
+
             modelBuilder.Entity("Data_Access_Layer.Entities.RefreshToken", b =>
                 {
                     b.Property<int>("Id")
@@ -316,6 +329,39 @@ namespace Data_Access_Layer.Migrations
                     b.ToTable("Resources");
                 });
 
+            modelBuilder.Entity("Data_Access_Layer.Entities.Review", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateOnly>("Date")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ISBN")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("Stars")
+                        .HasColumnType("int");
+
+                    b.Property<string>("reviewer")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ISBN");
+
+                    b.HasIndex("reviewer");
+
+                    b.ToTable("Reviews");
+                });
+
             modelBuilder.Entity("Data_Access_Layer.Entities.User", b =>
                 {
                     b.Property<string>("UserName")
@@ -350,10 +396,6 @@ namespace Data_Access_Layer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("NIC")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -489,6 +531,21 @@ namespace Data_Access_Layer.Migrations
                     b.Navigation("Author");
 
                     b.Navigation("Location");
+                });
+
+            modelBuilder.Entity("Data_Access_Layer.Entities.Review", b =>
+                {
+                    b.HasOne("Data_Access_Layer.Entities.Resource", "Resource")
+                        .WithMany()
+                        .HasForeignKey("ISBN");
+
+                    b.HasOne("Data_Access_Layer.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("reviewer");
+
+                    b.Navigation("Resource");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Data_Access_Layer.Entities.User", b =>

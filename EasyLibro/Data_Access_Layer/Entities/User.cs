@@ -24,9 +24,6 @@ namespace Data_Access_Layer.Entities
         public string PhoneNumber { get; set; }
         [Required]
         public string Password { get; set; }
-        [Required]
-        public string NIC {  get; set; }
-
         public string Gender { get; set; }
         public string Status {  get; set; }
         public string? Image { get; set; }

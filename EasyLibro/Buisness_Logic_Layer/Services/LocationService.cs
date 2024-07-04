@@ -4,10 +4,11 @@ using Data_Access_Layer;
 using Data_Access_Layer.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Runtime.InteropServices;
 
 namespace Buisness_Logic_Layer.Services
 {
-    public class LocationService:ILocationService
+    public class LocationService : ILocationService
     {
         private readonly DataContext _Context;
         private readonly IResourceService _resourceService;
@@ -18,7 +19,7 @@ namespace Buisness_Logic_Layer.Services
         }
         public async Task<IActionResult> GetAllLocation(string cupboardname)
         {
-            var locations = _Context.Locations.ToList();
+            var locations = await _Context.Locations.ToListAsync();
 
             // Group by CupboardId and process each group
             var locationListDtos = new List<LocationListDto>();
@@ -29,22 +30,49 @@ namespace Buisness_Logic_Layer.Services
                 var cupboard = await _Context.Cupboard.FirstOrDefaultAsync(e => e.cupboardID == group.Key);
 
                 // Create the LocationListDto object
-                var count = _Context.Resources
-                              .Where(s => _Context.Locations.Any(e => e.CupboardId == cupboard.cupboardID && e.LocationNo == s.BookLocation))
-                              .Count();
+
+                var Quantity = _Context.Cupboard
+                .Where(c => c.cupboardID == cupboard.cupboardID)
+                .Join(
+                    _Context.Locations,
+                    c => c.cupboardID,
+                    l => l.CupboardId,
+                    (c, l) => new { Cupboard = c, Locations = l })
+                .Join(
+                    _Context.Resources,
+                    cl => cl.Locations.LocationNo,
+                    r => r.BookLocation,
+                    (cl, r) => r.Quantity)
+                .Sum();
+
+                var Borrow = _Context.Cupboard
+              .Where(c => c.cupboardID == cupboard.cupboardID)
+              .Join(
+                  _Context.Locations,
+                  c => c.cupboardID,
+                  l => l.CupboardId,
+                  (c, l) => new { Cupboard = c, Locations = l })
+              .Join(
+                  _Context.Resources,
+                  cl => cl.Locations.LocationNo,
+                  r => r.BookLocation,
+                  (cl, r) => r.Borrowed)
+              .Sum();
 
                 var locationListDto = new LocationListDto
                 {
                     CupboardId = cupboard.cupboardID.ToString(),
                     CupboardName = cupboard.name,
                     ShelfNo = group.Select(cs => cs.ShelfNo.ToString()).ToList(),
-                    count = count
+                    count = 0,
+                    remain=Quantity,
+                    borrowed=Borrow
                 };
 
                 locationListDtos.Add(locationListDto);
             }
-            if(cupboardname != "")
-            locationListDtos = locationListDtos.Where(e => e.CupboardName.ToLower().Contains(cupboardname.ToLower())).ToList();
+            if (cupboardname != "")
+                locationListDtos = locationListDtos.Where(e => e.CupboardName.ToLower().Contains(cupboardname.ToLower())).ToList();
 
             return new OkObjectResult(locationListDtos);
         }
@@ -52,17 +80,19 @@ namespace Buisness_Logic_Layer.Services
         public async Task<IActionResult> SearchResources(SearchbookcupDto request)
         {
             var resources = new List<ResourceListDto>();
+            
 
-            var req=new SearchbookDto
+            var req = new SearchbookDto
             {
                 keyword = request.keyword,
                 tag = request.tag,
                 type = request.type
             };
+        
+            resources = (List<ResourceListDto>)await _resourceService.SearchResources(req);
+            Console.WriteLine("hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii");
 
-            resources= (List<ResourceListDto>)await _resourceService.SearchResources(req);
-
-            resources=resources.Where(e=>e.location==request.location).ToList();
+            resources = resources.Where(e => e.location == request.location).ToList();
 
             return new OkObjectResult(resources);
         }
@@ -92,12 +122,44 @@ namespace Buisness_Logic_Layer.Services
                     await _Context.SaveChangesAsync();
                 }
 
-                return new OkResult(); 
+                return new OkResult();
             }
             else
             {
                 return new BadRequestObjectResult("Location already exists.");
             }
         }
+
+        public async Task<IActionResult> DeleteCupboard(int cupboardId)
+        {
+            // Fetch the cupboard asynchronously
+            var cupboard = await _Context.Cupboard.FirstOrDefaultAsync(e => e.cupboardID == cupboardId);
+
+            if (cupboard == null)
+            {
+                return new BadRequestObjectResult("Cupboard is not defined");
+            }
+
+            // Get the count of resources in the specified cupboard
+            var count = await _Context.Resources
+                                      .Where(r => _Context.Locations.Any(l => l.CupboardId == cupboardId && l.LocationNo == r.BookLocation))
+                                      .CountAsync();
+            // If there are no resources, delete the cupboard and its locations
+            if (count == 0)
+            {
+                Console.WriteLine(count);
+                var deletedLocations = await _Context.Locations.Where(l => l.CupboardId == cupboardId).ToListAsync();
+                _Context.Locations.RemoveRange(deletedLocations);
+
+                _Context.Cupboard.Remove(cupboard);
+                await _Context.SaveChangesAsync();
+
+                return new OkObjectResult("Successfully Deleted");
+            }
+            else
+            {
+                return new BadRequestObjectResult("Can't delete cupboard with books");
+            }
+        }
     }
-}
+    }

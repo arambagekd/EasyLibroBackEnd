@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\EasyLibro\\Web_Api.csproj": {}
+    "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Web_Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj": {
+    "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj",
+        "projectUniqueName": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj",
         "projectName": "Buisness_Logic_Layer",
-        "projectPath": "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj",
+        "projectPath": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj",
         "packagesPath": "C:\\Users\\Arambage K D\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\Buisness_Logic_Layer\\obj\\",
+        "outputPath": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arambage K D\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\Data_Access_Layer\\Data_Access_Layer.csproj": {
-                "projectPath": "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\Data_Access_Layer\\Data_Access_Layer.csproj"
+              "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Data_Access_Layer.csproj": {
+                "projectPath": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Data_Access_Layer.csproj"
               }
             }
           }
@@ -69,6 +69,12 @@
               "target": "Package",
               "version": "[2.2.5, )"
             },
+            "Microsoft.NETCore.App": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "MimeKit": {
               "target": "Package",
               "version": "[4.7.0, )"
@@ -102,14 +108,14 @@
         }
       }
     },
-    "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\Data_Access_Layer\\Data_Access_Layer.csproj": {
+    "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Data_Access_Layer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\Data_Access_Layer\\Data_Access_Layer.csproj",
+        "projectUniqueName": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Data_Access_Layer.csproj",
         "projectName": "Data_Access_Layer",
-        "projectPath": "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\Data_Access_Layer\\Data_Access_Layer.csproj",
+        "projectPath": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\Data_Access_Layer.csproj",
         "packagesPath": "C:\\Users\\Arambage K D\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\Data_Access_Layer\\obj\\",
+        "outputPath": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Data_Access_Layer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arambage K D\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -184,14 +190,14 @@
         }
       }
     },
-    "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\EasyLibro\\Web_Api.csproj": {
+    "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Web_Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\EasyLibro\\Web_Api.csproj",
+        "projectUniqueName": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Web_Api.csproj",
         "projectName": "Web_Api",
-        "projectPath": "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\EasyLibro\\Web_Api.csproj",
+        "projectPath": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\Web_Api.csproj",
         "packagesPath": "C:\\Users\\Arambage K D\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\EasyLibro\\obj\\",
+        "outputPath": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\EasyLibro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arambage K D\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -208,8 +214,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj": {
-                "projectPath": "C:\\Users\\Arambage K D\\source\\repos\\EasyLibro\\Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj"
+              "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj": {
+                "projectPath": "C:\\Users\\Arambage K D\\Desktop\\New folder (5)\\BackEndFinal\\EasyLibroBackEnd\\EasyLibro\\Buisness_Logic_Layer\\Buisness_Logic_Layer.csproj"
               }
             }
           }

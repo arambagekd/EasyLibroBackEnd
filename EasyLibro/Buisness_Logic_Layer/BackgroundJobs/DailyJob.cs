@@ -6,18 +6,20 @@ namespace Buisness_Logic_Layer.BackgroundJobs
     public class DailyJob:IJob
     {
         private readonly IReservationService _reservationService;
-        public DailyJob(IReservationService reservationService)
+        private readonly IRequestService _requestService;
+        public DailyJob(IReservationService reservationService,IRequestService requestService)
         {
 
             _reservationService = reservationService;
+            _requestService= requestService;
 
         }
         public async Task Execute(IJobExecutionContext context)
         {
             Console.WriteLine("Overdue Job is running");
             await _reservationService.addPenalty();
-            // Your job logic here
             await _reservationService.setOverdue();
+            await _requestService.DeleteExpiredRequests();
         }
     }
 }

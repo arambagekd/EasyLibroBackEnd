@@ -18,7 +18,7 @@ namespace EasyLibro.Controllers
         }
 
         [HttpPost("RequestResource")]
-        public async Task<bool> AddRequest(AddRequestDto request)
+        public async Task<IActionResult> AddRequest(AddRequestDto request)
         {
             var x = HttpContext;
             return await _requestService.AddRequest(request,x);
@@ -32,7 +32,7 @@ namespace EasyLibro.Controllers
             return await _requestService.GetRequestList(x);
         }
         [HttpDelete("RemoveRequest")]
-        public async Task<bool> RemoveRequestList(int id)
+        public async Task<IActionResult> RemoveRequestList(int id)
         {
             return await _requestService.RemoveRequestList(id);
         }

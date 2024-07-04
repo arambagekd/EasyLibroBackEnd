@@ -8,7 +8,7 @@ namespace Buisness_Logic_Layer.Interfaces
     public interface INotificationService
     {
         Task<bool> NewNotice(NoticeDto newnotice);
-        Task<List<NewNoticeDto>> GetNotification();
+        Task<List<NewNoticeDto>> GetNotification(SearchNotification searchnotification);
         Task<List<MyNotificationDto>> GetMyNotification(HttpContext httpContext);
         Task<bool> SetRemind(Reservation reservation);
         Task<bool> IssueNotification(int reservationNo);
